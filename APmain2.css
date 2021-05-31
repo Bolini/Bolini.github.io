@@ -1636,7 +1636,8 @@ font-size:4vw;
         font-size:4vw;
         text-decoration: underline;
         transition: transform .3s;
-        perspective: 1000px
+        perspective: 1000px;
+        color:pink;
     }
 
 }
