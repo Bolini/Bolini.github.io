@@ -9,7 +9,7 @@ body {
     .topnav {
         background-color: none;
         position:absolute;
-        top: 0;
+        top: 0.5em;
         right: 0;
         width:100%;
         z-index:100;
@@ -877,14 +877,14 @@ font-size:1.4vw;
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
 .topnav a {
-    font-size:2vw;
+    font-size:2.5vw;
 }
 .name {
     display:none;
 }
 .container1 {
 
-    padding-bottom:165%;
+    padding-bottom:185%;
 }
 .rightcont1 {
     position: relative;
@@ -933,9 +933,9 @@ text-align:center;
 }
 .leftcont1 img {
     position: absolute;
-    width: 60%;
+    width: 70%;
     height: auto;
-    top:6vw;
+    top:5vw;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -1059,7 +1059,7 @@ font-variant: small-caps;
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    box-shadow: -2px 12px 23px -2px rgba(231, 169, 156, 0.05), 12px 20px 23px -2px rgba(231, 169, 156, 0.05);
+    box-shadow: none;
     border-radius:2%;
     
 }
@@ -1103,7 +1103,7 @@ font-variant: small-caps;
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    box-shadow: -2px 12px 23px -2px rgba(231, 201, 156, 0.05), 12px 20px 23px -2px rgba(225, 203, 243, 0.05);
+    box-shadow: none;
     border-radius:0%;
     
 }
@@ -1117,7 +1117,7 @@ font-variant: small-caps;
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    box-shadow: -2px 12px 23px -2px rgba(225, 203, 243, 0.05), 12px 20px 23px -2px rgba(225, 203, 243, 0.05);
+    box-shadow: none;
     border-radius:0%;
     
 }
@@ -1622,11 +1622,21 @@ font-size:4vw;
         text-align:left;
         font-weight: lighter;
         }
+    .container5 {
+        top:0;
+        padding-bottom:10%;
+    }
     .worktext p{
-        font-size:3vw;
+        font-size:5vw;
         color:#3D3C3C;
         font-variant: small-caps;
         font-weight: bold;
+    }
+    .mailtext p{
+        font-size:4vw;
+        text-decoration: underline;
+        transition: transform .3s;
+        perspective: 1000px
     }
 
 }
