@@ -45,12 +45,10 @@ body {
 
 .container1 {
     position: relative;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 7.84%,
-     rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgba(223, 207, 182, 0.6) 0%,
-     rgba(240, 221, 221, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 7.84%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgba(255, 237, 217, 0.6) 0%, rgba(240, 221, 221, 0.6) 100%);
     background-size:cover;
     width: 100%;
-    padding-bottom:50%;
+    padding-bottom:55%;
 }
 
 .rightcont1 {
@@ -79,13 +77,14 @@ font-size:5vw;
 .rightcont1 p {
     position: absolute;
     background-color:none;
-    width: 60%;
+    width: 70%;
     font-size:1vw;
     color:#464646;
     font-style: normal;
     font-weight:lighter;
     line-height: 2.3em;
     margin-left: 5em;
+    margin-top:2em;
 
     
     
@@ -130,10 +129,10 @@ font-size:5vw;
 }
 .container2 {
     position: relative;
-    background: white;
+    background: none;
     background-size:cover;
     width: 100%;
-    padding-bottom:15%;
+    padding-bottom:10%;
 }
 .topcont {
 
@@ -148,18 +147,18 @@ font-size:5vw;
     width: 80%;
     padding:2em 0em;
     background: #FFFFFF;
-    box-shadow: 24px 13px 23px -2px rgba(163, 162, 161, 0.1), -28px 12px 23px -2px rgba(163, 162, 161, 0.1);
+    box-shadow: 0px 4px 15px rgba(193, 193, 193, 0.17);
     border-radius: 41px;
     margin-left: auto;
     margin-right: auto;
-    top:-1.5em;
     display: block;
+    top:-1.5em;
 }
 .logoholder img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 85%;
+    width: 90%;
     height: auto;
 }
 
@@ -237,8 +236,8 @@ font-variant: small-caps;
     width:30%;
     height:180%;
     padding-bottom: 0%;
-    background:#FCFCFC;
-    box-shadow: 21px 7px 53px -2px rgba(170, 167, 164, 0.05), 1px 25px 37px -2px rgba(170, 167, 164, 0.05);
+    background:#FDFDFD;
+    box-shadow: 24px 13px 23px -2px rgba(163, 162, 161, 0.1), -28px 12px 23px -2px rgba(163, 162, 161, 0.1);
     border-radius: 23px;
     transition: transform .3s;
 	perspective: 1000px;
@@ -316,8 +315,8 @@ font-variant: small-caps;
     height:180%;
     border-radius: 50%;
     left:35.5%;
-    background: #FCFCFC;
-    box-shadow: 21px 7px 53px -2px rgba(170, 167, 164, 0.05), 1px 25px 37px -2px rgba(170, 167, 164, 0.05);
+    background: #FDFDFD;
+    box-shadow: 24px 13px 23px -2px rgba(163, 162, 161, 0.1), -28px 12px 23px -2px rgba(163, 162, 161, 0.1);
     border-radius: 22px;
     padding-bottom: 0%;
     transition: transform .3s;
@@ -330,8 +329,8 @@ font-variant: small-caps;
     width:30%;
     height:180%;
     border-radius: 50%;
-    background: #FCFCFC;
-    box-shadow: 21px 7px 53px -2px rgba(170, 167, 164, 0.05), 1px 25px 37px -2px rgba(170, 167, 164, 0.05);
+    background: #FDFDFD;
+   box-shadow: 24px 13px 23px -2px rgba(163, 162, 161, 0.1), -28px 12px 23px -2px rgba(163, 162, 161, 0.1);
 border-radius: 22px;
     padding-bottom: 0%;   
     transition: transform .3s;
@@ -359,7 +358,7 @@ border-radius: 22px;
     float:left;
     background-color:none;
     width: 100%;  
-    padding-top:7%;
+    padding-top:4%;
 }
 .topcont3 h2 {
     text-align:center;
@@ -377,7 +376,7 @@ border-radius: 22px;
 }
 .botcont31 {
     padding:15%;
-    padding-top:30%;
+    padding-top:20%;
     background-color:none;
     background-repeat:no-repeat;
     background-size:100% 100%;
@@ -528,13 +527,13 @@ font-size:1.4vw;
     .ft10 {
         position: absolute;
         width: 100%;
-        top:41%;
+        top:65%;
         background-color:green;
     }
     .ft10 p {
     position: absolute;
     bottom: 4%;
-    left:41%;
+    left:55%;
     font-variant: small-caps;
     font-weight: bold;
     font-size:1.4vw;
@@ -542,13 +541,13 @@ font-size:1.4vw;
     .ft101 {
         position: absolute;
         width: 100%;
-        top:39%;
+        top:63%;
         background-color:green;
         opacity: 0.5;
     }
     .ft101 p {
         position: absolute;
-        left:41%;
+        left:55%;
         font-size:1vw;
         text-align:left;
         font-weight: lighter;
@@ -725,7 +724,7 @@ font-size:1.4vw;
     .ft22 {
         position: absolute;
         width: 100%;
-        top:65%;
+        top:77%;
         background-color:green;
     }
     .ft22 p {
@@ -739,7 +738,7 @@ font-size:1.4vw;
     .ft23 {
         position: absolute;
         width: 100%;
-        top:63%;
+        top:75%;
         background-color:green;
         opacity: 0.5;
     }
@@ -753,7 +752,7 @@ font-size:1.4vw;
     .ft24 {
         position: absolute;
         width: 100%;
-        top:63%;
+        top:75%;
         background-color:green;
         opacity: 0.5;
     }
@@ -767,7 +766,7 @@ font-size:1.4vw;
     .ft25 {
         position: absolute;
         width: 100%;
-        top:77%;
+        top:89%;
         background-color:green;
     }
     .ft25 p {
@@ -781,7 +780,7 @@ font-size:1.4vw;
     .ft26 {
         position: absolute;
         width: 100%;
-        top:75%;
+        top:92%;
         background-color:green;
         opacity: 0.5;
     }
@@ -795,7 +794,7 @@ font-size:1.4vw;
     .ft27 {
         position: absolute;
         width: 100%;
-        top:81%;
+        top:87%;
         background-color:green;
         opacity: 0.5;
     }
@@ -877,7 +876,7 @@ font-size:1.4vw;
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
 .topnav a {
-    font-size:2.5vw;
+    display: none;
 }
 .name {
     display:none;
@@ -939,7 +938,7 @@ text-align:center;
     left: 0; 
     right: 0; 
     margin-left: auto; 
-    margin-right: auto; 
+    margin-right: 2em; 
     
 }
 .container2 {
@@ -1014,15 +1013,16 @@ display:none;
 }
 .topcont2 h2 {
 text-align:center;
-font-size: 9vw;
+font-size: 10vw;
 background-color:none;
 font-variant: small-caps;
 }
 .stexthide h3 {
     font-variant:small-caps;
-    font-size:2em;
+    font-size:1.5em;
     color:#686868;
     text-align:center;
+    background-color: none;
 }
 #nr1text {
     width: 70%;
@@ -1158,7 +1158,6 @@ font-variant: small-caps;
     background-size:cover;
     text-align:center;
     width: 100%;
-    padding-right:.5em;
     height:90em;
     display: block; /* remove extra space below image */
     padding-top:5em;
