@@ -246,11 +246,14 @@ body {
 }
 .img3 img {
     margin-top: 30%;
-    width: 100%;
+    width: 50%;
     height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .img31 img {
-    width: 70%;
+    width: 100%;
     height: auto;
     position: relative;
     left: 50%;
@@ -258,4 +261,12 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.img32 img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+
 
