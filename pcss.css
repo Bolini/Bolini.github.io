@@ -36,8 +36,6 @@ body {
 }
 
 .topnav {
-    background-color: #FBFBFB;
-
     position: absolute;
     top: 0;
     right: 0;
@@ -45,7 +43,7 @@ body {
     margin-left: 15%;
     z-index: 1;
 }
-    
+
     .topnav .topname a{
     float: left;
     color: black;
@@ -145,7 +143,6 @@ body {
 
 .c1 {
     position: static;
-    background-color: yellow;
 }
 .c1 p {
     font-family:Rockwell;
@@ -164,7 +161,7 @@ body {
 .c12 p {
     font-family: 'Gill Sans';
     color: #424242;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 85.5%;
     left: 50%;
     top: 48%;
@@ -173,7 +170,6 @@ body {
     position: absolute;
     text-align: right;
     line-height: 1.5em;
-    cursor: context-menu;
 }
 .c2 p {
     font-family: 'Gill Sans';
@@ -213,6 +209,11 @@ body {
     width: 95%;
 }
 .img1 img {
+    margin-top: 50%;
+    width: 40%;
+    height: auto;
+}
+.img12 img {
     margin-top: 20%;
     width: 60%;
     height: auto;
@@ -268,5 +269,3 @@ body {
     margin-top: 10%;
     margin-bottom: 25%;
 }
-
-
