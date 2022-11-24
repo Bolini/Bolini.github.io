@@ -73,6 +73,7 @@ body {
 }
     .fa:hover {
         opacity: 0.7;
+        border-radius: 0;
     }
 
     .topnav a {
@@ -123,6 +124,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
+    opacity: 80%;
 }
 .object0 {
     position: absolute;
@@ -160,16 +162,20 @@ body {
 }
 .c12 p {
     font-family: 'Gill Sans';
-    color: #424242;
-    font-size: 1.2vw;
-    width: 85.5%;
-    left: 50%;
+    font-size: 1.4vw;
+    font-weight:600;
+    width: auto;
+    right: 0;
     top: 48%;
-    margin-right: -50%;
     transform: translate(-50%, -50%);
     position: absolute;
     text-align: right;
     line-height: 1.5em;
+    text-decoration: none;
+}
+.c12 a{
+      text-decoration: none;
+      color: #424242;
 }
 .c2 p {
     font-family: 'Gill Sans';
@@ -183,89 +189,95 @@ body {
     position: absolute;
     text-align: left;
     line-height: 1.5em;
-    cursor: context-menu;
 }
 .c2 a {
     text-decoration: none;
     color: #424242;
 }
-.cont2 {
-    padding-bottom: 0%;
-    position: relative;
-    left: 62%;
-    transform: translateX(-50%);
-    width: 75%;
-}
-.img0 img {
-    width: 70%;
-    height: auto;
-    object-position: 50% 50%;
-}
-.cont3 {
-    padding-bottom: 20%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 95%;
-}
-.img1 img {
-    margin-top: 50%;
-    width: 40%;
-    height: auto;
-}
-.img12 img {
-    margin-top: 20%;
-    width: 60%;
-    height: auto;
-}
-.cont4 {
-    padding-bottom: 0%;
-    margin-top:10%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
+
+#UXbut::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
 }
 
-.img2 img {
-    margin-top: 70%;
-    width: 40%;
-    height: 40%;
-    object-fit: contain;
+#UXbut:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-.img21 img {
-    width: 40%;
-    height: auto;
-    margin-top:5%;
+
+#UXbut::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #86FCEE;
+  height: 50%;
+  z-index: -1;
+  transition: transform .5s ease;
+  margin-top:23%;
 }
-.cont5 {
-    padding-bottom: 0%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 95%;
+#UIbut::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
 }
-.img3 img {
-    margin-top: 30%;
-    width: 50%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+
+#UIbut:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-.img31 img {
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10%;
-    margin-bottom: 10%;
+
+#UIbut::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  inset: 0 0 0 0;
+  background: #FCBF86;
+  border-radius: 0.5%;
+  z-index: -1;
+  transition: transform .5s ease;
+  height: 50%;
 }
-.img32 img {
-    width: 50%;
-    height: auto;
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 25%;
+
+#Headhov::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  inset: 0 0 0 0;
+  background: #FF7455;
+  border-radius: 0.5%;
+  z-index: -1;
+  transition: transform .5s ease;
+  height: 9%;
+  width: 16%;
+  margin-top: 16.2%;
+  margin-left: 42%;
+  opacity: 50%;
+}
+
+.Kont1 {
+  position: relative;
+  width: fill;
+}
+.Kont2 {
+  position: relative;
+  width: fill;
+}
+.Kont4 {
+  position: relative;
+  width: fill;
+}
+.Kont2 img, .Kont1 img, .Kont4 img, .Kont3 img {
+  width: 100%;
+  height: auto;
+}
+.Kont3 {
+  margin-top: 5%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  padding-bottom: 10%;
+}
+.Kont3 img{
 }

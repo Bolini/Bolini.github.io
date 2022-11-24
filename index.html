@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--h1 style="font-size:10vw;" p=5vw-->
     <link href="pcss.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <!--CSS-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style type="text/css"
            @import url('https: //fonts.googleapis.com/css2?family =Nunito&display =swap');>
@@ -20,9 +20,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
+
     <div class="desktop">
 
         <div class="topnav">
@@ -37,10 +40,10 @@
             <a id="hide" href="#services">portfolio</a>
         </div>
 
-        <div id="overlay">
+        <div id="overlay" data-aos="fade-up" data-aos-duration="3000">
             <div class="cont1">
-                <div class="c1"><p> Hi. I’m Julia. A newly graduate with a master of science in Interaction Technology and Design looking for work.</p></div>
-                <div class="c12"><p> <a href="https://bolini.github.io/CaseStudy_JuliaBohlin-komprimerad.pdf"> UX case study<br /><a href="https://bolini.github.io/seeds.pdf">UI design case</div>
+                <div class="c1"><p> Hi. I’m Julia. A newly graduate with a master of science in Interaction Technology and <a id="Headhov"> Design</a> looking for work.</p></div>
+                <div class="c12"><p> <a id="UIbut" href="UIpage.html">UI design case<br /><a id="UXbut" href="UXpage.html"> UX case study</div>
                 <div class="c2"><p><a href="mailto:bohlinjulia@gmail.com"> bohlinjulia@gmail.com</a><br />+46 76 786 50 09 <br />Stockholm, Sweden</p></div>
             </div>
         </div>
@@ -48,6 +51,16 @@
 
         </div>
 
+        <div class="Kont1"><img src="Typgroup.png"></div>
+        <div class="Kont2"><img src="Myrgroup.png"></div>
+        <div class="Kont3"><img src="Trigroup.png"></div>
+        <div class="Kont4"><img src="Cretgroup.png"></div>
+
+
+
+
+
+<!--
         <div class="cont2">
             <div class="img0"><img src="typo.jpg" alt="Typography"></div>
         </div>
@@ -60,24 +73,18 @@
             <div class="img31"><img src="creatico2.png" alt="creat"></div>
 
         </div>
-        <div class="cont3">
-            <div class="img12"><img src="trivector.png" style="float:right" alt="Recipy"></div>
-
+        <div class="cont3" >
+            <div class="img13"><img src="posts.png" style="float:right" alt="Recipy"></div>
         </div>
-
-
-
-
-
-
-
-
     </div>
+-->
 
+<div class="mobile">
+</div>
 
-
-
-<div class="mobile"></div>
-
+<script>
+AOS.init()
+</script>
 </body>
+
 </html>

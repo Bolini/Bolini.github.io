@@ -7,6 +7,7 @@
     <!--h1 style="font-size:10vw;" p=5vw-->
     <link href="UI.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <!--CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -20,25 +21,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
   <div class="topnav">
       <div id="topnavleft">
-          <a href="UXpage.html" class="fa fa-arrow-right">UX page</a>
-          <a href="index.html" class="fa fa-arrow-left"> index</a>
-          <a id="hide" href="#"> case </a>
+        <ul class="flex-container space-between">
+          <a href="index.html">Home</a>
+          <a id="title"class="title">UI design case</a>
+          <a href="UXpage.html">UX case study</a>
+        </ul>
       </div>
+  </div>
 
+  <!-- Page content -->
+  <div class="w3-content" data-aos="fade-up" data-aos-duration="1500">
+      <img src="S1.png" class="center">
+      <img src="S2.png" class="center">
+      <img src="S3.png" class="center">
+      <img src="S4.png" class="center">
+      <img src="S5.png" class="center">
+      <img src="S6.png" class="center">
   </div>
-  <div class="cont1">
-<div class="c2"><p><a> bohlinjulia@gmail.com</a><br />+46 76 786 50 09 <br />Stockholm, Sweden</p></div>
-<div class="img0"><img src="homegy.png" alt="Typography"></div>
-  </div>
-  <div class="cont2">
 
+  <div class="botnav">
+      <div id="botnavleft">
+        <ul class="flex-container space-between">
+          <a href="index.html">Home</a>
+          <a href="UXpage.html">UX case study</a>
+        </ul>
+      </div>
   </div>
-  <div class="cont3">
-    <p>Stockholm, Sweden</p></div>
-  </div>
+
+<script>
+  AOS.init()
+</script>
 </body>

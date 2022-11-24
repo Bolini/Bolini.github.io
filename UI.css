@@ -2,271 +2,64 @@ body {
     background-color: #FBFBFB;
     font-family: 'Roboto', sans-serif;
 }
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: white;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    left:0;
-    z-index: 2;
+.w3-content {
+  background-color: none;
+  max-width:2000px;
 }
-.sideline {
-    margin: 0;
-    padding: 0;
-    width: 0.1%;
-    background-color: #EBEBEB;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    left:15%;
-    top:0;
+.first-container {
+  background-color: red;
+  opacity: 50%;
+  width: 80%;
+  height: auto;
+}
+.w3-content {
+  box-shadow: 5px 4px 81px 32px rgba(148, 148, 148, 0.1);
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+.topnav{
+  background-color: none;
+}
+#title{
+  bottom:0;
+  font-size: 2em;
+  cursor: default;
+  font-weight: 500;
+  color: #424242;
+}
+#title:hover{
+color: #424242;
+}
+.botnav{
+  background-color: none;
+}
+.flex-container a{
+
+  color: #B3B3B3;
+  text-decoration: none;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.flex-container a:hover{
+  color: #424242;
+  font-weight: 400;
 }
 
-.sidebar h3 {
-    border-radius: 50%;
-    width: 1em;
-    height: 1em;
-    padding: 8px;
-    background: black;
-    border: 2px solid;
-    color: white;
+.flex-container {
+  padding: 0;
+  margin: 5%;
+  list-style: none;
+  display: flex;
 }
-
-.topnav {
-    background-color: #yellow;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    margin-left: 15%;
-    z-index: 1;
-}
-
-    .topnav .topname a{
-    float: left;
-    color: black;
-    text-decoration: none;
-    font-size: 0.7em;
-    width: 12%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
-    }
-
-    #topnavleft {
-        float:left;
-        padding-left:13%;
-        padding-top:3.2%;
-        position:relative;
-        background-color: pink;
-    }
-    #in {
-        margin-right:0.8em;
-    }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    color: #424242;
-}
-    .fa:hover {
-        opacity: 0.7;
-    }
-
-    .topnav a {
-
-    float: right;
-    padding: 30px;
-    padding-top:3.5%;
-    padding-bottom: 2.5%;
-    color: black;
-    text-decoration: none;
-    font-size: 1.2vw;
-    font-weight: 550;
-    width: 10%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
-    transition: transform .3s;
-    background-color: none;
-    bottom:0;
-    right:0;
-    }
-    .topnav a:hover {
-    color:#CF6212;
-    }
-#hide {
-
-    opacity:0%;
-}
-#overlay {
-    position: fixed; /* Sit on top of the page content */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 10%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:none;
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-}
-.cont1 {
-    padding-bottom: 60%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    background-color: yellow;
-}
-.cont0 {
-    padding-bottom: 60%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70%;
-}
-.object0 {
-    position: absolute;
-    width: 5em;
-    height: 1em;
-    left: 86%;
-    top: 61%;
-    background: #FCBF86;
-}
-.object1 {
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 89%;
-    top: 58%;
-    background: #86FCEE;
-}
-
-.c1 {
-    position: static;
-    background-color: yellow;
-}
-.c1 p {
-    font-family:Rockwell;
-    color: #424242;
-    font-size: 3vw;
-    width: 90%;
-    left: 50%;
-    top: 26%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    position: fixed;
-    text-align: center;
-    line-height: 1.4em;
-    cursor:default;
-}
-.c12 p {
-    font-family: 'Gill Sans';
-    color: #424242;
-    font-size: 1.5vw;
-    width: 85.5%;
-    left: 50%;
-    top: 48%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-align: right;
-    line-height: 1.5em;
-}
-.c2 p {
-    font-family: 'Gill Sans';
-    color: #424242;
-    font-size: 1vw;
-    width: 90%;
-    left: 53%;
-    top: 60%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-align: left;
-    line-height: 1.5em;
-    cursor: context-menu;
-}
-.c2 a {
-    text-decoration: none;
-    color: #424242;
-}
-.cont2 {
-    padding-bottom: 0%;
-    position: relative;
-    left: 62%;
-    transform: translateX(-50%);
-    width: 75%;
-}
-.img0 img {
-    width: 100%;
-    height: auto;
-    object-position: 50% 50%;
-}
-.cont3 {
-    padding-bottom: 20%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 95%;
-    background-color: yellow;
-}
-.img1 img {
-    margin-top: 20%;
-    width: 60%;
-    height: auto;
-}
-.cont4 {
-    padding-bottom: 0%;
-    margin-top:10%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-}
-
-.img2 img {
-    margin-top: 70%;
-    width: 40%;
-    height: 40%;
-    object-fit: contain;
-}
-.img21 img {
-    width: 40%;
-    height: auto;
-    margin-top:5%;
-}
-.cont5 {
-    padding-bottom: 0%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 95%;
-}
-.img3 img {
-    margin-top: 30%;
-    width: 50%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.img31 img {
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-.img32 img {
-    width: 50%;
-    height: auto;
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 25%;
+.space-between {
+  justify-content: space-between;
 }
