@@ -219,4 +219,7 @@ figcaption {
   flex: 100%;
   max-width: 100%;
 }
+.imgcont {
+  padding:0;
+}
 }

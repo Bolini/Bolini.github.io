@@ -151,6 +151,9 @@ cursor: pointer;
     flex: 100%;
     max-width: 100%;
   }
+  .imgcontainer {
+    padding:0 2%;
+  }
 
 
 }
