@@ -1,0 +1,467 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h5, h4, h3, h2, ul li, ul {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color:#929292;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+}
+
+.center {
+  text-align: center;
+}
+ul {
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+li {
+  float:left;
+  margin-left: 100px;
+}
+
+ul li {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  list-style: circle;
+}
+
+#descriptive {
+  color:#C5C5C5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.header p {
+  color:#C5C5C5;
+}
+
+.imgcont {
+    padding:0 10%;
+}
+
+.imgcontainer {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+#headimg {
+  background-color: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.firstimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top:50px;
+}
+.fullimage {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.textcontainer {
+  position: absolute;
+  background-color: none;
+  width: 40%;
+  height: 100%;
+  margin-left: 10px;
+  top: 0;
+}
+
+.textsection {
+
+}
+
+.paddingsection {
+  padding:25px 0;
+}
+
+.textsection p, .textsection h4, h4, h2, h3 {
+  margin-left: 1%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column5 {
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+.column3 {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+.column2 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0px 30px;
+  padding-top: 50px;
+}
+.column1 {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 5px;
+  padding-top: 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.column2 img {
+  margin-top: 0px;
+  vertical-align: middle;
+}
+.column1 img {
+  margin-top: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 50%;
+}
+
+#goals {
+    max-width: 99%;
+}
+#goalssec {
+    max-width: 70%;
+    margin-top: 0;
+}
+#goalssec {
+    max-width: 50%;
+    margin-top: 0;
+    margin-left: 0;
+}
+#minustop {
+  margin-top:0px;
+  margin-left: 20%;
+  background-color: yellow;
+}
+
+#nopad {
+  padding: 0px 10px;
+}
+
+.column5 p {
+  margin-top: 8px;
+  text-align: center;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.menu {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+}
+
+.menu p {
+  margin-top: 8px;
+  text-align: center;
+  color:#C5C5C5;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+    color:#C5C5C5;
+}
+
+#pl a:hover {
+  color: #8992D3;
+}
+
+#ui a:hover {
+  color: #3C8A4F;
+}
+
+#mi a:hover {
+  color: #343174;
+}
+
+.menu a:hover {
+font-weight: 500;
+color: black;
+cursor: pointer;
+}
+
+#frame {
+  margin-top: 20px;
+  border-top: double;
+}
+
+figcaption {
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#wirefig {
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+#wirefig p{
+  color:black;
+  text-align: left;
+}
+#wirefigright {
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+  font-size: 14px;
+  text-align: right;
+}
+#wirefigextra {
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2px;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.flex-parent-element {
+  display: flex;
+  width: 100%;
+}
+
+.flex-child-element {
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-child-element:first-child {
+  margin-right: 10px;
+}
+#hififlex {
+    margin-right: 0px;
+}
+#topux {
+  margin-top: 0px;
+}
+.flex-child-element img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.userul ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.userul ul li {
+  float:none;
+  margin-left: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.flex-child-element:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-child-element:last-child img {
+  margin-left: 0;
+}
+
+.backgroundcont {
+  background-image:url("uxbg.png");
+  background-size:cover;
+}
+
+.flex-parent-element2 {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-child-element2 {
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-child-element2:first-child {
+  margin-right: 10px;
+  width: 50%;
+}
+
+.flex-child-element2 img {
+  width: 50%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.flex-child-element2 p {
+color: black;
+}
+
+.flex-child-element2:last-child {
+  margin-right: 10px;
+}
+
+
+.flex-parent-element3 {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.flex-child-element3 {
+  flex: 1;
+}
+
+.flex-child-element3:first-child {
+  width: 50%;
+}
+.flex-child-element3 p {
+  padding:200px 0;
+  text-align: right;
+}
+.flex-child-element3 img {
+  width: 80%;
+  margin-top: 20px;
+  float: right;
+}
+
+.flex-child-element3:last-child {
+  margin-right: 0px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column3 {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .wirecolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column1 img {
+      max-width: 100%;
+  }
+  p {
+    font-size: 16px;
+  }
+  .userul ul {
+  width: 100%;
+  }
+}
+.flex-child-element:last-child img {
+  width: 100%;
+}
+#minustop {
+  margin-top: 0px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+}
+.column2 {
+  flex: 100%;
+  max-width: 100%;
+}
+.wirecolumn {
+  flex: 50%;
+  max-width: 50%;
+}
+.userul ul {
+width: 100%;
+font-size: 14px;
+}
+.flex-child-element:last-child img {
+  width: 100%;
+}
+#minustop {
+  margin-top: 0px;
+}
+#hide {
+  display: none;
+}
+.menu {
+  flex: 100%;
+  max-width: 100%;
+}
+.paddingsection {
+  padding:0;
+}
+#mi {
+  padding-bottom: 20px;
+}
+.imgcont {
+    padding:0 0%;
+}
+}

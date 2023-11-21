@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h5, h4, h3, h2, ul li, ul {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#big {
+  font-size: 24px;
+}
+
+p, a {
+  color:#C5C5C5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+ul {
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+li {
+  float:left;
+  margin-left: 100px;
+}
+
+ul li {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  list-style: circle;
+}
+
+#descriptive {
+  color:#C5C5C5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.header p {
+  color:#C5C5C5;
+}
+
+.imgcontainer {
+  padding:0% 25% ;
+}
+
+#headimg {
+  background-color: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#descriptive {
+  color:#C5C5C5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.header p {
+  color:#C5C5C5;
+}
+
+.firstimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top:50px;
+}
+.fullimage {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.textcontainer {
+  position: absolute;
+  background-color: none;
+  width: 40%;
+  height: 100%;
+  margin-left: 10px;
+  top: 0;
+}
+
+.textsection {
+
+}
+
+.paddingsection {
+  padding:25px 0;
+}
+
+.textsection p, .textsection h4, h4, h2, h3 {
+  margin-left: 1%;
+}
+
+/* Create four equal columns that sits next to each other */
+
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0px;
+}
+
+.column img {
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  align-items: center;
+  justify-content: center;
+}
+.column img:hover {
+  opacity: 50%;
+}
+
+#padtop {
+    padding:0px 0;
+}
+#right {
+  text-align: right;
+}
+figcaption {
+  color:#929292;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+#hide {
+  display:none;
+}
+
+@media only screen and (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+  #hide {
+    display:none;
+  }
+  #padtop {
+      padding:50px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+}

@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  color:#373737;
+  font-weight: 400;
+}
+
+p {
+  color:#929292;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+}
+#descriptive {
+  color:#C5C5C5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.menu {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+}
+
+.menu p {
+  margin-top: 8px;
+  text-align: center;
+  color:#C5C5C5;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+    color:#C5C5C5;
+}
+
+#mi a:hover {
+  color: #343174;
+}
+
+#ui a:hover {
+  color: #3C8A4F;
+}
+
+#ux a:hover {
+  color: #89C5CC;
+}
+
+.menu a:hover {
+font-weight: 500;
+color: black;
+cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.header p {
+  color:#C5C5C5;
+}
+
+.firstimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.textsection {
+
+}
+
+.paddingsection {
+  padding:25px;
+}
+
+.textsection p, .textsection h4 {
+  margin-left:5%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullimage {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+}
+.imgcontainer {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+#headimg {
+  background-color: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.textcontainer {
+  position: absolute;
+  background-color: none;
+  width: 40%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+#left {
+  left:0;
+}
+
+.top-left {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  color: black;
+}
+
+.top-right {
+  position: absolute;
+  top: 30%;
+  color: black;
+  background-color: none;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 50px 0px;
+}
+
+.firstcolumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+  margin: 0 2%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .moncolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .smallcolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .top-left {
+    font-size: 12px;
+  }
+  .top-right {
+    top: 5%;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .moncolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .smallcolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .firstcolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .top-left, .top-right {
+    top: 5%;
+  }
+  p {
+    font-size: 14px;
+  }
+  #hide {
+    display: none;
+  }
+  .menu {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .paddingsection {
+    padding:0;
+  }
+  #mi {
+    padding-bottom: 20px;
+  }
+}
